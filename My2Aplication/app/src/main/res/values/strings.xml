@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aplikacja 2</string>
+    <string name="txtview_content">Ala ma kota\nKot nie może jeść sfsfs sdfsfsdfsdfsdf ssf s \ndfdfedfsdfsd fsf sf sfsf sf s</string>
+    <string name="txtview2_content">Czerwiec 2020</string>
+    <string name="textview1_content">Zespół Szkół\nim. Ojca Świętego Jana Pawła II\nw Niepołomicach</string>
+    <string name="textview2_content">Adam Nowak\nuczeń klasy 2TI</string>
+    <string name="toast1_content">To jestem ja autor tej aplikacji</string>
+</resources>
