@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My3Application</string>
+    <string name="edit_year_hint">Podaj rok urodzenia</string>
+    <string name="edit_name_hint">Podaj imię pupila</string>
+    <string name="btn_content">Oblicz</string>
+    <string name="error_year">Błędna wartość</string>
+</resources>
