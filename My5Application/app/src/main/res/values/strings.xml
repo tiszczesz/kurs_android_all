@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My5Application</string>
+    <string-array name="przyslowie">
+        <item>Bez pracy nie ma kołaczy</item>
+        <item>Darowanemu koniowi w zęby się nie zagląda</item>
+        <item>Fortuna kołem się toczy</item>
+        <item>Nie chwal dnia przed zachodem słońca</item>
+        <item>Lepszy wróbel w garści niż gołąb na dachu</item>
+        <item>Apetyt rośnie w miarę jedzenia</item>
+        <item>Co ma wisieć, nie utonie</item>
+        <item>Dzieci i ryby głosu nie mają</item>
+    </string-array>
+</resources>
