@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My6Application</string>
+    <string name="q1">Czy Warszawa leży w górach?</string>
+    <string name="q2">Czy Słonie to ssaki?</string>
+    <string name="q3">Czy ryby mają głos?</string>
+    <string name="q4">Czy 10m/s to 32km/h?</string>
+    <string name="q5">Czy kury dają mleko?</string>
+    <string name="q6">Czy Czechy leżą nad morzem?</string>
+    <string name="q7">Czy szkoła uczy życia?</string>
+    <string name="q8">Czy wakacje są potrzebne?</string>
+    <string name="q9">Czy warto się uczyć?</string>
+    <string name="q10">Sport prowadzi do kalectwa?</string>
+    <string name="btn_content_true">PRAWDA</string>
+    <string name="btn_content_false">FAŁSZ</string>
+</resources>
