@@ -9,7 +9,13 @@
     <string name="q7">Czy szkoła uczy życia?</string>
     <string name="q8">Czy wakacje są potrzebne?</string>
     <string name="q9">Czy warto się uczyć?</string>
-    <string name="q10">Sport prowadzi do kalectwa?</string>
+    <string name="q10">Czy w Polsce jest dobrze?</string>
+    <string name="q11">Małpa to przodek człowieka?</string>
+    <string name="q12">Kolor czerwony uspokaja?</string>
+    <string name="q13">Jedzenie fast food jest zdrowe?</string>
+    <string name="q14">Rekreacja prowadzi do kalectwa?</string>
+    <string name="q15">Komary są denerwujące?</string>
+
     <string name="btn_content_true">PRAWDA</string>
     <string name="btn_content_false">FAŁSZ</string>
 </resources>

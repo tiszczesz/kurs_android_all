@@ -33,7 +33,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
              new QuizModel(R.string.q7,true),
              new QuizModel(R.string.q8,true),
              new QuizModel(R.string.q9,true),
-             new QuizModel(R.string.q10,true)
+             new QuizModel(R.string.q10,true),
+             new QuizModel(R.string.q11,true),
+             new QuizModel(R.string.q12,false),
+             new QuizModel(R.string.q13,false),
+             new QuizModel(R.string.q14,false),
+             new QuizModel(R.string.q15,true),
     };
     final int USER_PROGRESS = 1;// (int)Math.ceil(100.0/questionCollection.length);
     @Override
@@ -91,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
     private void changeQuestionOnClick(){
-        mQuestionIndex = (mQuestionIndex+1)%10;
+        mQuestionIndex = (mQuestionIndex+1)%questionCollection.length;
         if(mQuestionIndex==0){
             AlertDialog.Builder quizAlert = new AlertDialog.Builder(this);
             quizAlert.setCancelable(false);
