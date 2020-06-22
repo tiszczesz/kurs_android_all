@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class DocText extends Document {
+public class DocText extends Document implements IPrintable {
     private List<String> lines;
     public DocText(String name,double size,List<String> lines) {
         super(name,size);
@@ -25,9 +25,15 @@ public class DocText extends Document {
     }
     private String getContent(){
         StringBuilder sb = new StringBuilder();
-        for (String line : lines) {
-            sb.append(line).append("\n");
-        }
+        // for (String line : lines) {
+        //     sb.append(line).append("\n");
+        // }
+        lines.forEach(line->sb.append(line).append("\n"));
         return sb.toString();
+    }
+
+    @Override
+    public void PrintDoc() {
+        System.out.println("Drukowanie tekstu......");
     }
 }
