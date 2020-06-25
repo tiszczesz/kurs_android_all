@@ -61,11 +61,11 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case "mikstura lecząca mała":
                     hh = (IHealing)players.get(0).getItems().get(2);
-                    textViewInfo.setText(textViewInfo.getText()+"\n"+hh.makeHealing(players.get(1)));
+                    textViewInfo.setText(textViewInfo.getText()+"\n"+hh.makeHealing(players.get(0)));
                     break;
                 case "mikstura lecząca duża":
                     hh = (IHealing)players.get(0).getItems().get(3);
-                    textViewInfo.setText(textViewInfo.getText()+"\n"+hh.makeHealing(players.get(1)));
+                    textViewInfo.setText(textViewInfo.getText()+"\n"+hh.makeHealing(players.get(0)));
                     break;
                 case "miecz dwuręczny BB":
                     dd = (IDamage)players.get(0).getItems().get(4);
@@ -83,7 +83,26 @@ public class MainActivity extends AppCompatActivity {
         AdapterView.OnItemSelectedListener listener2 = new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String action = (String)parent.getItemAtPosition(position);
+                IDamage dd = null;
+                IHealing hh = null;
+                switch(action){
+                    case "Mały mieczyk jednoręczny":
 
+                        dd = (IDamage)players.get(0).getItems().get(0);
+                        textViewInfo.setText(textViewInfo.getText()+"\n"+dd.makeDps(players.get(0)));
+                        break;
+                    case "Mały mieczyk dwuręczny":
+
+                        dd = (IDamage)players.get(0).getItems().get(1);
+                        textViewInfo.setText(textViewInfo.getText()+"\n"+dd.makeDps(players.get(0)));
+                        break;
+                    case "Mikstura lecząca duża":
+                        hh = (IHealing)players.get(0).getItems().get(2);
+                        textViewInfo.setText(textViewInfo.getText()+"\n"+hh.makeHealing(players.get(1)));
+                        break;
+
+                }
             }
 
             @Override
