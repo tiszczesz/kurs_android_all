@@ -12,7 +12,7 @@ public class Sword2Hands extends PlayerItem implements IDamage{
     @Override
     public String makeDps(Player player) {
         int dd = RandomDps();
-        player.setHp(dd);
+        player.setHp(-dd);
         return "Zadano obrażenia mieczem: "+name+" "+dd+"\n"+player;
     }
     private int RandomDps(){

@@ -27,7 +27,7 @@ public class Player {
         return name;
     }
     public void setHp(int change){
-        this.hp -= change;
+        this.hp += change;
         this.isAlive = this.hp>0;
     }
     @Override

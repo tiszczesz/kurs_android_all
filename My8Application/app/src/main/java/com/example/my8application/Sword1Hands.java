@@ -17,7 +17,7 @@ public class Sword1Hands extends PlayerItem implements IDamage {
         for (int i=0;i<repeats;i++){
             totalDps+=RandomDps();
         }
-        player.setHp(totalDps);
+        player.setHp(-totalDps);
         return "Zadano obrażenia  całkowite: "+totalDps+"mieczem: "+name+"\n"+player;
     }
     private int RandomDps(){
