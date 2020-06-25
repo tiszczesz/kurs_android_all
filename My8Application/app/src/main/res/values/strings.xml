@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My8Application</string>
+    <string-array name="my_items">
+        <item>Wspaniały miecz dwuręczny</item>
+        <item>Miecz jednoręczny</item>
+        <item>mikstura lecząca mała</item>
+        <item>mikstura lecząca duża</item>
+        <item>miecz dwuręczny BB</item>
+<!--        <item>klucz do skrzyni drewnianej</item>-->
+<!--        <item>klucz do głównych drzwi skarbca</item>-->
+    </string-array>
+</resources>
